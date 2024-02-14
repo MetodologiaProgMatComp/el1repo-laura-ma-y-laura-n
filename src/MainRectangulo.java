@@ -1,6 +1,6 @@
 import es.uah.matcomp.mp.e1.ejerciciosclase.Rectangulo;
 
-public class TestRectangulo {
+public class MainRectangulo {
     public static void main(String[] args) {
         // Test constructors and toString()
         // You need to append a 'f' or 'F' to a float literal

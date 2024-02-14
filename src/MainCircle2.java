@@ -1,6 +1,6 @@
 import es.uah.matcomp.mp.e1.ejerciciosclase.Circle;
 
-public class TestCircle2 {
+public class MainCircle2 {
     public static class TestCircle {
         public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 import es.uah.matcomp.mp.e1.ejerciciosclase.Account;
 
-public class TestAccount2 {
+public class MainAccount {
 
     public static void main(String[] args) {
         // Test constructor and toString()

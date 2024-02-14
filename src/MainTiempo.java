@@ -1,6 +1,6 @@
 import es.uah.matcomp.mp.e1.ejerciciosclase.Tiempo;
 
-public class TestTiempo {
+public class MainTiempo {
     public static void main(String[] args) {
         // Test constructors and toString()
         Tiempo t1 = new Tiempo(1, 2, 3);

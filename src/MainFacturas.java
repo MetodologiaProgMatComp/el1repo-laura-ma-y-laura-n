@@ -1,6 +1,6 @@
 import es.uah.matcomp.mp.e1.ejerciciosclase.Facturas;
 
-public class TestFacturas {
+public class MainFacturas {
         public static void main(String[] args) {
             // Test constructor and toString()
             Facturas inv1 = new Facturas("A101", "Pen Red", 888, 0.08);

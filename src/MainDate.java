@@ -1,6 +1,6 @@
 import es.uah.matcomp.mp.e1.ejerciciosclase.Date;
 
-public class TestDate {
+public class MainDate {
     public static void main(String[] args) {
         // Test constructor and toString()
         Date d1 = new Date(1, 2, 2014);

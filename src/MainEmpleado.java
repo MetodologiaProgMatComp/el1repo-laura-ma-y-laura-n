@@ -1,6 +1,6 @@
 import es.uah.matcomp.mp.e1.ejerciciosclase.Empleado;
 
-public class TestEmpleado {
+public class MainEmpleado {
     public static void main(String[] args) {
         // Test constructor and toString()
         Empleado e1 = new Empleado(8, "Peter", "Tan", 2500);

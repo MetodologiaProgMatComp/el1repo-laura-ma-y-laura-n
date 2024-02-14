@@ -1,6 +1,6 @@
 import es.uah.matcomp.mp.e1.ejerciciosclase.Circle2;
 
-public class TestMain {
+public class Main {
     public static void main(String[] args) {
         // Test Constructors and toString()
         Circle2 c1 = new Circle2(1.1);
