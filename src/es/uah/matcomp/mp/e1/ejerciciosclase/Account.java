@@ -5,6 +5,8 @@ public class Account {
     private String nombre;
     private int balance=0;
 
+
+
     public Account(String id, String nombre){
         this.id=id;
         this.nombre=nombre;
@@ -15,6 +17,13 @@ public class Account {
         this.nombre=nombre;
         this.balance=balance;
     }
+
+    public Account() {
+        this.id=id;
+        this.nombre=nombre;
+        this.balance=0;
+    }
+
     public String getId(){
         return id;
     }
@@ -48,5 +57,9 @@ public class Account {
     }
     public String toString(){
         return "Account[id= "+id +", nombre= "+ nombre +", balance= "+ balance+"]";
+    }
+
+    public Object credit() {
+        return null;
     }
 }
