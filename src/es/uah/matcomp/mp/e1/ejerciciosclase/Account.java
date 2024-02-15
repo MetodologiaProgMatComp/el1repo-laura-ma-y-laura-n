@@ -7,22 +7,17 @@ public class Account {
 
 
 
-    public Account(String id, String nombre){
-        this.id=id;
-        this.nombre=nombre;
-        this.balance=0;
+    public Account(String Id, String nom){
+        id=Id;
+        nombre=nom;
+        balance=0;
     }
-    public Account(String id, String nombre, int balance){
-        this.id=id;
-        this.nombre=nombre;
-        this.balance=balance;
+    public Account(String Id, String nom, int bal){
+        id=Id;
+        nombre=nom;
+        balance=bal;
     }
 
-    public Account() {
-        this.id=id;
-        this.nombre=nombre;
-        this.balance=0;
-    }
 
     public String getId(){
         return id;
@@ -34,13 +29,23 @@ public class Account {
         return balance;
     }
 
+    public void setBalance(int balance) {
+        this.balance = balance;
+    }
+
     public int credit(int cantidad){
-        balance=balance +cantidad;
+        int balancenew = balance + cantidad;
+        setBalance(balancenew);
+        //System.out.println(balance);
         return balance;
     }
     public int debit(int cantidad) {
-        if (cantidad <= balance) {
-            balance = balance - cantidad;
+        int bal= getBalance();
+        if (cantidad < bal) {
+            //System.out.println(bal);
+            int balancenew = bal - cantidad;
+            setBalance(balancenew);
+            //System.out.println(balance);
         } else {
             System.out.println("La cantidad excede al balance");
         }
@@ -59,7 +64,4 @@ public class Account {
         return "Account[id= "+id +", nombre= "+ nombre +", balance= "+ balance+"]";
     }
 
-    public Object credit() {
-        return null;
-    }
 }
