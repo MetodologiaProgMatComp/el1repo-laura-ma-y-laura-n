@@ -23,6 +23,6 @@ public class Facturas {
     }
 
     public double getTotal(){ return unitp*qty;}
-    public String toString(){ return "InvoiceItem[ id= "+ Id + ", desc= " + desc+", qry= "+ qty+", unitPrice= "+unitp+"]";}
+    public String toString(){ return "InvoiceItem[ id= "+ Id + ", desc= " + desc+", qty= "+ qty+", unitPrice= "+unitp+"]";}
 
 } //h

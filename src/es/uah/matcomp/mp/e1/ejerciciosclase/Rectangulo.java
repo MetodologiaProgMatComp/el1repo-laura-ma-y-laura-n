@@ -35,4 +35,4 @@ public class Rectangulo {
         return "Rectangulo [longitud= " + longitud + " ancho= " + ancho + "]";
         }
 
-} //h
+}
