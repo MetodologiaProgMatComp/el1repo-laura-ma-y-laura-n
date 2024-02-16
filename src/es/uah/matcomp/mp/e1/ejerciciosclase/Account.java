@@ -34,18 +34,15 @@ public class Account {
     }
 
     public int credit(int cantidad){
-        int balancenew = balance + cantidad;
+        int balancenew = this.balance + cantidad;
         setBalance(balancenew);
-        //System.out.println(balance);
         return balance;
     }
     public int debit(int cantidad) {
         int bal= getBalance();
         if (cantidad < bal) {
-            //System.out.println(bal);
             int balancenew = bal - cantidad;
             setBalance(balancenew);
-            //System.out.println(balance);
         } else {
             System.out.println("La cantidad excede al balance");
         }

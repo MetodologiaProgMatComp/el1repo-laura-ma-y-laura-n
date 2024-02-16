@@ -22,7 +22,7 @@ public class Empleado {
         return apellido;
     }
     public String getNombreCompleto(){
-        return nombre+apellido;
+        return nombre+" "+apellido;
     }
     public int getSalario(){
         return salario;

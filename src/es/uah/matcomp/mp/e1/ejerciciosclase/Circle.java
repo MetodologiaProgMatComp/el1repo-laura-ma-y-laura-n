@@ -37,9 +37,9 @@ package es.uah.matcomp.mp.e1.ejerciciosclase;
         public void setColor(String newColor){
             color = newColor;
         }
+
         public String toString(){
             return "Circle[radio= "+ radio + ", color= " +color+ "]";
         }
 
     }
-//h
