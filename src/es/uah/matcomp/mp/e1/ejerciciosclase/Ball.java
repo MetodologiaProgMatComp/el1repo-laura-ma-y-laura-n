@@ -57,6 +57,7 @@ public class Ball {
 
     public void move(){
         this.x=x+dx;
+        this.y=y+dy;
     }
 
     public void reflectHorizontal(){
