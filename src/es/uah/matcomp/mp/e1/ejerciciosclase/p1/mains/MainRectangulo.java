@@ -1,4 +1,6 @@
-import es.uah.matcomp.mp.e1.ejerciciosclase.Rectangulo;
+package es.uah.matcomp.mp.e1.ejerciciosclase.p1.mains;
+
+import es.uah.matcomp.mp.e1.ejerciciosclase.p1.Rectangulo;
 
 public class MainRectangulo {
     public static void main(String[] args) {

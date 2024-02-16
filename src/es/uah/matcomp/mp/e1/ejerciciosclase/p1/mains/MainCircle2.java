@@ -1,4 +1,6 @@
-import es.uah.matcomp.mp.e1.ejerciciosclase.Circle2;
+package es.uah.matcomp.mp.e1.ejerciciosclase.p1.mains;
+
+import es.uah.matcomp.mp.e1.ejerciciosclase.p1.Circle2;
 
 public class MainCircle2 {
     public static void main(String[] args) {

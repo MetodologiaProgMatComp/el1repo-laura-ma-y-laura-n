@@ -1,4 +1,6 @@
-import es.uah.matcomp.mp.e1.ejerciciosclase.Circle;
+package es.uah.matcomp.mp.e1.ejerciciosclase.p1.mains;
+
+import es.uah.matcomp.mp.e1.ejerciciosclase.p1.Circle;
 
 public class MainCircle {
     public static class TestCircle {

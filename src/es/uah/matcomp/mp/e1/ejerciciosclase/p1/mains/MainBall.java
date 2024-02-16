@@ -1,4 +1,6 @@
-import es.uah.matcomp.mp.e1.ejerciciosclase.Ball;
+package es.uah.matcomp.mp.e1.ejerciciosclase.p1.mains;
+
+import es.uah.matcomp.mp.e1.ejerciciosclase.p1.Ball;
 
 public class MainBall {
 

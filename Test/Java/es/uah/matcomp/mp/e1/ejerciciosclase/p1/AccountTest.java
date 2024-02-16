@@ -1,5 +1,6 @@
-package es.uah.matcomp.mp.e1.ejerciciosclase;
+package es.uah.matcomp.mp.e1.ejerciciosclase.p1;
 
+import es.uah.matcomp.mp.e1.ejerciciosclase.p1.Account;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

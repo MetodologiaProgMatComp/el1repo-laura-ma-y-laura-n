@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e1.ejerciciosclase;
+package es.uah.matcomp.mp.e1.ejerciciosclase.p1;
 
 
     public class Circle {  //Variables privadas no accesibles desde fuera de la clase

@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e1.ejerciciosclase;
+package es.uah.matcomp.mp.e1.ejerciciosclase.p1;
 
 public class Rectangulo {
     private float longitud;
