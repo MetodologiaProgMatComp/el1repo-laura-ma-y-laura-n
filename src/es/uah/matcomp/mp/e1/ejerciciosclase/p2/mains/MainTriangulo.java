@@ -1,7 +1,7 @@
 package es.uah.matcomp.mp.e1.ejerciciosclase.p2.mains;
 
-import es.uah.matcomp.mp.e1.ejerciciosclase.MyPoint;
-import es.uah.matcomp.mp.e1.ejerciciosclase.MyTriangle;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p2.MyPoint;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p2.MyTriangle;
 
 public class MainTriangulo {
     public static void main(String[] args) {

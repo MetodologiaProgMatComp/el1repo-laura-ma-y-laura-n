@@ -1,7 +1,7 @@
 package es.uah.matcomp.mp.e1.ejerciciosclase.p2.mains;
 
-import es.uah.matcomp.mp.e1.ejerciciosclase.Cliente2;
-import es.uah.matcomp.mp.e1.ejerciciosclase.Account;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p2.Cliente2;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p2.Account;
 
 public class MainCliente2Account {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package es.uah.matcomp.mp.e1.ejerciciosclase.p2.mains;
 
-import es.uah.matcomp.mp.e1.ejerciciosclase.AutorMod;
-import es.uah.matcomp.mp.e1.ejerciciosclase.LibroMod;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p2.AutorMod;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p2.LibroMod;
 
 public class MainAutorModLibroMod {
 

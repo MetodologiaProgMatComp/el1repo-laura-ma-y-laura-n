@@ -1,6 +1,6 @@
 package es.uah.matcomp.mp.e1.ejerciciosclase.p2.mains;
 
-import es.uah.matcomp.mp.e1.ejerciciosclase.Autor;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p2.Autor;
 
 public class MainAutor {
     public static void main(String[] args) {

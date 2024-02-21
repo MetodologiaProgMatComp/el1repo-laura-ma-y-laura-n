@@ -1,9 +1,9 @@
 package es.uah.matcomp.mp.e1.ejerciciosclase.p2.mains;
 
-import es.uah.matcomp.mp.e1.ejerciciosclase.Autor;
-import es.uah.matcomp.mp.e1.ejerciciosclase.AutorMod;
-import es.uah.matcomp.mp.e1.ejerciciosclase.Libro;
-import es.uah.matcomp.mp.e1.ejerciciosclase.LibroMod;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p2.Autor;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p2.AutorMod;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p2.Libro;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p2.LibroMod;
 
 public class MainLibro {
     public static void main(String[] args) {

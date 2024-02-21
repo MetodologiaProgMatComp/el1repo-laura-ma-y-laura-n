@@ -1,7 +1,7 @@
 package es.uah.matcomp.mp.e1.ejerciciosclase.p2.mains;
 
-import es.uah.matcomp.mp.e1.ejerciciosclase.MyPoint;
-import es.uah.matcomp.mp.e1.ejerciciosclase.MyCircle;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p2.MyPoint;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p2.MyCircle;
 public class MainCircle {
     public static void main(String[] args) {
 
