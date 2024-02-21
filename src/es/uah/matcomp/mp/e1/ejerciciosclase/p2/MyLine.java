@@ -1,5 +1,5 @@
 package es.uah.matcomp.mp.e1.ejerciciosclase.p2;
-import es.uah.matcomp.mp.e1.ejerciciosclase.MyPoint;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p2.MyPoint;
 
 public class MyLine {
 
