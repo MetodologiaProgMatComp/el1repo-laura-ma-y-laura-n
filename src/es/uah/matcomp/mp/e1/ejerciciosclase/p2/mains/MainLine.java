@@ -17,8 +17,9 @@ public class MainLine {
         System.out.println("El punto final es:"+puntos.getEnd());
         System.out.println("La primera coordenada es:"+line.getEndX());
         System.out.println("La segunda coordenada es:"+line.getEndY());
-        System.out.println("la distancia de los puntos es:"+puntos.getLenght());
+        System.out.println("la distancia de los puntos es:"+puntos.getLength());
         System.out.println(line.toString());
         System.out.println("los grados en radianes son:"+line.getGradient());
+        System.out.println(line.getBeginXY().toString());
     }
 }
