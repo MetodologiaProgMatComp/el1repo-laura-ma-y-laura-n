@@ -1,9 +1,6 @@
 package es.uah.matcomp.mp.e1.ejerciciosclase.p2;
 
 public class MyCircle {
-
-    private int x;
-    private int y;
     private MyPoint center;
     private int radio;
 
@@ -13,8 +10,7 @@ public class MyCircle {
     }
 
     public MyCircle(int x, int y,  int radio) {
-        this.x = x;
-        this.y = y;
+        this.center= new MyPoint(x,y);
         this.radio = radio;
     }
 
@@ -40,31 +36,31 @@ public class MyCircle {
     }
 
     public int getCenterX() {
-        return x;
+        return (int) center.getX();
     }
 
     public void setCenterX(int x) {
-        this.x = x;
+        this.center.setX(x);
     }
 
     public int getCenterY() {
-        return y;
+        return (int) center.getY();
     }
 
     public void setCenterY(int y) {
-        this.y = y;
-    }
-    public int[] getCenterXY() {
-        return new int[]{x, y};
+        this.center.setY(y);
     }
 
-    public void setX(int x) {
-        this.x = x;
+    public int[] getCenterXY() {
+        int[] centerXY= new int[2];
+        centerXY[0]= (int) center.getX();
+        centerXY[1]= (int) center.getY();
+        return centerXY;
     }
 
     public void setXY(int x, int y) {
-        this.x = x;
-        this.y = y;
+        this.center.setX(x);
+        this.center.setY(y);
     }
 
 
@@ -73,6 +69,6 @@ public class MyCircle {
     }
     public double getArea(){return Math.PI*radio*radio;}
     public double getCircunferencia(){return Math.PI*2*radio;}
-    public double getDistance(MyPoint antoher){return antoher.Distance3();}
+    public double getDistance(MyCircle another){return another.getCenter().Distance2(center);}
 
 }

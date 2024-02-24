@@ -73,7 +73,7 @@ public class MyPoint {
 
     }
 
-    public double Distance3() {  //distancai desde el origen
+    public double Distance3() {  //distancia desde el origen
         double d1 = (this.x * this.x) + (this.y * this.y);
         double distancia = Math.sqrt(d1);
         return distancia;

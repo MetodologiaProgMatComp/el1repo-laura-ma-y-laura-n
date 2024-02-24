@@ -15,7 +15,7 @@ public class MainCircle {
         System.out.println("la segunda coordenada del centro es "+circulo1.getCenterY());
         System.out.println("El área de la circunfernecia es "+circulo1.getArea());
         System.out.println("El perimetro es "+circulo1.getCircunferencia());
-        System.out.println("La distancia del los centros del circulo1 y este nuevo es "+ circulo2.getDistance(otro));;
+        System.out.println("La distancia del los centros del circulo1 y este nuevo es "+ circulo2.getDistance(circulo1));;
         System.out.println(circulo2.toString());
     }
 }
