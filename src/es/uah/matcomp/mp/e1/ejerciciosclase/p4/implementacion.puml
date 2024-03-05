@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class Animal
+
+
+
+
+abstract class Animal {
++{abstract} greeting()
+}
+class Cat {
++greeting()
+}
+class Dog {
++greeting()
++greeting(another:Dog)
+
+}
+class BigDog{
++greeting()
++greeting(antoher:Dog)
+}
+
+
+Animal<|--Cat
+Animal<|-- Dog
+Dog<|--BigDog
+@enduml
+
