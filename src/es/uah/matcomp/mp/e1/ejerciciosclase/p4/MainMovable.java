@@ -1,8 +1,8 @@
 package es.uah.matcomp.mp.e1.ejerciciosclase.p4;
 
-import P5.Movable.InterfazMovable;
-import P5.Movable.MovableCircle;
-import P5.Movable.MovablePoint;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.Movable.InterfazMovable;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.Movable.MovableCircle;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.Movable.MovablePoint;
 
 public class MainMovable {
 

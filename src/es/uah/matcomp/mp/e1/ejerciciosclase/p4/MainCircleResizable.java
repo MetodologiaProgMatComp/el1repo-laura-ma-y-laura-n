@@ -1,8 +1,8 @@
 package es.uah.matcomp.mp.e1.ejerciciosclase.p4;
 
-import P5.CircleResizable.Circle;
-import P5.CircleResizable.GeometricObject;
-import P5.CircleResizable.ResizableCircle;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.CircleResizable.Circle;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.CircleResizable.GeometricObject;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.CircleResizable.ResizableCircle;
 
 public class MainCircleResizable {//
     public static void main(String[] args) {

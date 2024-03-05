@@ -1,9 +1,9 @@
 package es.uah.matcomp.mp.e1.ejerciciosclase.p4;
 
-import P5.Shape.Circle;
-import P5.Shape.Rectangle;
-import P5.Shape.Shape;
-import P5.Shape.Square;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.Shape.Circle;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.Shape.Rectangle;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.Shape.Shape;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.Shape.Square;
 
 public class MainShape {
     public static void main(String[] args) {

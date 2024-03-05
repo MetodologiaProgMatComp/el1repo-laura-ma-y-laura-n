@@ -1,8 +1,8 @@
 package es.uah.matcomp.mp.e1.ejerciciosclase.p4;
-import P5.Animal.Animal;
-import P5.Animal.BigDog;
-import P5.Animal.Cat;
-import P5.Animal.Dog;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.Animal.Animal;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.Animal.BigDog;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.Animal.Cat;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.Animal.Dog;
 
 public class MainAnimal2 {
     public static void main(String[] args) {

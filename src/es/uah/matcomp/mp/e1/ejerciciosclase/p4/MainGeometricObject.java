@@ -1,7 +1,7 @@
 package es.uah.matcomp.mp.e1.ejerciciosclase.p4;
 
-import P5.GeometricObject.Circle;
-import P5.GeometricObject.Rectangle;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.GeometricObject.Circle;
+import es.uah.matcomp.mp.e1.ejerciciosclase.p4.GeometricObject.Rectangle;
 
 public class MainGeometricObject {
     public static void main(String[] args){
